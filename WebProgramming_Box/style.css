@@ -1,0 +1,17 @@
+#outer-box{
+  width: 400px;
+  height:400px;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inner-box{
+  width: 200px;
+  height:200px;
+  border: 50px;
+  border-style:solid;
+  border-color:pink;
+  background-color:salmon;
+}

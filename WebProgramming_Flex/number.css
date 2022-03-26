@@ -1,0 +1,14 @@
+#container{
+  width: 500px;
+  height: 200px;
+  border-style: solid;
+  border-color: #698733;
+  border-width: 0.5em;
+  border-radius: 1em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#container > img{
+    height: 70%;    
+}

@@ -1,0 +1,84 @@
+/*
+ * CSE 154
+ * CSS for Skittles Game Exercise
+ */
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto auto;
+  text-align: center;
+  width: 60%;
+}
+
+/* button styles aren't inherited from body, so we have to
+ * set them explicitly */
+body, button {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+button, input {
+  padding: 5px;
+}
+
+header {
+  text-align: center;
+}
+
+#jar {
+  align-content: baseline;
+  border: 2pt solid black;
+  border-radius: 4pt 4pt;
+  display: flex;
+  height: 400px;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+/* Styles shared by all Skittles */
+.skittle {
+  border-radius: 60%;
+  box-shadow: inset -1px -1px 2px 0px #2c2c2c;
+  height: 20px;
+  margin: 1px;
+  width: 20px;
+}
+
+#color {
+  font-weight: bold;
+}
+
+/* These are prettier red, green, blue skittles */
+#color.red {
+  color: #ff2626;
+}
+
+#color.green {
+  color: #60c81f;
+}
+
+#color.blue {
+  color: #39eef9;
+}
+
+.skittle.red {
+  background-color: #ff2626;
+}
+
+.skittle.green {
+  background-color: #60c81f;
+}
+
+.skittle.blue {
+  background-color: #39eef9;
+}
+
+.hidden {
+  display: none;
+}
+
+.green:hover {
+  background-color: red;
+}
